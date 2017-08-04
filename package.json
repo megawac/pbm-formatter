@@ -1,6 +1,6 @@
 {
   "name": "pbm-formatter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "port of https://github.com/paulcuth/netpbm-viewer",
   "main": "index.js",
   "scripts": {

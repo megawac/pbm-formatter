@@ -1,3 +1,5 @@
+var Canvas2Image = require('./Canvas2Image');
+
 var Image = function (data) {
   
   var exp = /^(\S+)\s+(\#.*?\n)*\s*(\d+)\s+(\d+)\s+(\d+)?\s*/,
