@@ -5,21 +5,7 @@
  */
 
 
-// check if we have canvas support
-var bHasCanvas = false;
 var oCanvas = document.createElement("canvas");
-if (oCanvas.getContext("2d")) {
-  bHasCanvas = true;
-}
-
-// no canvas, bail out.
-if (!bHasCanvas) {
-  return {
-    saveAsBMP : function(){},
-    saveAsPNG : function(){},
-    saveAsJPEG : function(){}
-  }
-}
 
 var bHasImageData = !!(oCanvas.getContext("2d").getImageData);
 var bHasDataURL = !!(oCanvas.toDataURL);
